@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "829528858068",
+    "firebase_url": "https://indikart-d61f0.firebaseio.com",
+    "project_id": "indikart-d61f0",
+    "storage_bucket": "indikart-d61f0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:829528858068:android:7cd449a984f14d33",
+        "android_client_info": {
+          "package_name": "com.example.indi_kart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "829528858068-jkk3n1f69q3hqfbr4pj1hu4veoln5hsk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.indi_kart",
+            "certificate_hash": "a6c5b1aa10c1bdb8c79884652f92e2e4878ca58c"
+          }
+        },
+        {
+          "client_id": "829528858068-4gkvd57fot06k004qoh9ubc3145b356t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB39d37LsCaYI6nUFOFYqHFBSQbBL1dy9o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "829528858068-4gkvd57fot06k004qoh9ubc3145b356t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

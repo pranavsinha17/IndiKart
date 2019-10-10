@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FinalOrder">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/ship"
+    android:text="Shipping Details"
+    android:textAlignment="center"
+    android:textSize="30dp"
+    android:textColor="#fff"
+    android:background="@color/colorPrimaryDark"
+    android:textStyle="bold"/>
+    <EditText
+        android:id="@+id/entername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ship"
+        android:layout_marginTop="30dp"
+        android:hint="Enter Name"
+        android:textAlignment="center"/>
+    <EditText
+        android:id="@+id/phone"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/entername"
+        android:layout_marginTop="30dp"
+        android:hint="Enter Phone Number"
+        android:textAlignment="center"/>
+    <EditText
+        android:id="@+id/Address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phone"
+        android:layout_marginTop="30dp"
+        android:hint="Enter Address"
+        android:textAlignment="center"/>
+    <EditText
+        android:id="@+id/city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Address"
+        android:layout_marginTop="30dp"
+        android:hint="Enter City"
+        android:textAlignment="center"/>
+    <EditText
+        android:id="@+id/pin"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/city"
+        android:layout_marginTop="30dp"
+        android:hint="Enter ZIP"
+        android:textAlignment="center"/>
+    <Button
+        android:id="@+id/confirm_order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimaryDark"
+        android:text="Confirm Order"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:textColor="#fff"/>
+</RelativeLayout>

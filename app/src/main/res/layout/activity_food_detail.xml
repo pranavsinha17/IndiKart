@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FoodDetail">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:scaleType="fitXY"
+        android:id="@+id/img"
+        app:srcCompat="@drawable/female_dresses"
+         />
+    <TextView
+        android:id="@+id/product_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img"
+        android:text="Product Name"
+        android:textAlignment="center"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:id="@+id/product_description"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@+id/product_name"
+        android:layout_marginTop="26dp"
+        android:text="Product Description"
+        android:textAlignment="center"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/product_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/product_description"
+        android:layout_marginTop="24dp"
+        android:text="Product Price"
+        android:textAlignment="center"
+        android:textSize="30dp" />
+
+    <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
+        android:id="@+id/numberbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/product_price"
+        android:layout_marginTop="71dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        app:finalNumber="10"
+        app:initialNumber="1">
+
+    </com.cepheuen.elegantnumberbutton.view.ElegantNumberButton>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+    android:layout_below="@+id/numberbutton"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="13dp"
+        android:backgroundTint="#fff"
+        android:id="@+id/floating"
+        android:elevation="6dp"
+        android:src="@drawable/nav_cart" />
+
+</RelativeLayout>
